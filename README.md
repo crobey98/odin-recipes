@@ -1,1 +1,2 @@
 # odin-recipes
+## This is my first basic project with The Odin Project. This documents the start of my journey to become a web developer. I started this project on June 20, 2022. While I already know the basics of HTML, I am following this project all of the way and will be completing things regardless of if I already know them.
