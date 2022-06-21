@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.link:hover{
+    color: gray;
+}
+
+.recipe-group{
+    align-items: center;
+    text-align: center;
+}
+
+.recipe-group .group-item{
+    display: inline-block;
+    align-items: top;
+    padding: 1em;
+    width: 25%;
+    position: relative;
+}
+
+.recipe-group .group-item.text{
+    vertical-align: top;
+}
+
+.recipe-group .group-item img{
+    width: 300px;
+    height: auto;
+}
