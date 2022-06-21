@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
 }
 
 .title{
@@ -40,3 +41,42 @@ body{
     width: 300px;
     height: auto;
 }
+
+.header-image{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-image-description{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients, .ingredients-head, .ingredients-sub,
+ .steps, .steps-head {
+     padding-left: 5%;
+ }
+
+ .ingredients-head{
+     font-size: 2em;
+     margin-bottom: 5px;
+     font-weight: bolder;
+ }
+
+ .ingredients-sub{
+     font-size: 1em;
+     margin-top: 5px;
+     font-weight: bold;
+     margin-left: 1%;
+     margin-bottom: 2px;
+ }
+
+ .ingredients, .steps{
+    margin-left: 3%;
+    margin-top: 2px;
+ }
