@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <a href="recipes/tacopasta.html"><li>Cheesy Taco Pasta Skillet</li></a>
-        <a href="recipes/appleciderchicken.html"><li>Apple Cider Chicken Thighs with Sweet Potatoes</li></a>
-        <a href="recipes/gochujangchicken.html"><li>Easy Grilled Gochujang Chicken Thighs</li></a>
-    </ul>
+    <h1 class="title">Odin Recipes</h1>
+    <div class="recipe-group">
+        <div class="group-item picture">
+            <a href="recipes/tacopasta.html"><img src="images/tacopasta.webp"></a>
+        </div>
+        <div class="group-item picture">
+            <a href="recipes/appleciderchicken.html"><img src="images/appleciderchicken.webp"></a>
+        </div>
+        <div class="group-item picture">
+            <a href="recipes/gochujangchicken.html"><img src="images/gochujangchicken.webp"></a>
+        </div>
+    </div>
+    <div class="recipe-group">
+        <div class="group-item text">
+            <a class="link" href="recipes/tacopasta.html">Cheesy Taco Pasta Skillet</a>
+        </div>
+        <div class="group-item text">
+            <a class="link" href="recipes/appleciderchicken.html">Apple Cider Chicken Thighs with Sweet Potatoes</a>
+        </div>
+        <div class="group-item text">
+            <a class="link" href="recipes/gochujangchicken.html">Easy Grilled Gochujang Chicken Thighs</a>
+        </div>
+    </div>
 </body>
 </html>
